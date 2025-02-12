@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="logooo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="Category.html">Category</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>#Your Cart</h2>
+        <p>Review your selected items before checkout.</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Product</td>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be added dynamically using JavaScript -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>NPR <span id="cart-subtotal">0</span></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>NPR <span id="cart-shipping">399</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>NPR <span id="cart-total">0</span></strong></td>
+                </tr>
+            </table>
+            <button class="normal">Checkout</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
