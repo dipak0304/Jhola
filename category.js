@@ -19,8 +19,8 @@ function showProducts(category) {
         mobiles: [
             { image: 'mobile/mbl1.jpg', title: 'Iphone 15 pro max 256GB' , price:'232,499.00'} ,
             { image: 'mobile/mbl2.jpg', title: 'Samusumg Galaxy S24 Ultra', price: '184,999.00' },
-            { image: 'mobile/mbl3.pnj', title: 'Redmi Note 14 Pro 5G', price: '39,999.00' },
-            { image: 'mobile/mbl4.jpg', title: 'Nothing 2a(8/128GB)', price: '45,999.00' }
+            { image: 'mobile/mbl3.png', title: 'Redmi Note 14 Pro 5G', price: '39,999.00' },
+            { image: 'mobile/mbl4.png', title: 'Nothing 2a(8/128GB)', price: '45,999.00' }
         ],
         watches: [
             { image: 'watch/w1.jpg', title: 'Smart Watch', price: '4,499.00' },
